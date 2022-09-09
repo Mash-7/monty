@@ -96,7 +96,7 @@ void m_rotl(stack_t **stack, unsigned int line_number);
 void m_rotr(stack_t **stack, unsigned int line_number);
 void m_stack(stack_t **stack, unsigned int line_number);
 void m_queue(stack_t **stack, unsigned int line_number);
-void (*get_op_func(char *opcode))(stack_t**, unsigned int);
+void (*get_opcode(char *opcode))(stack_t**, unsigned int);
 int _sch(char *s, char c);
 char *_strtoky(char *s, char *d);
 void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size);
