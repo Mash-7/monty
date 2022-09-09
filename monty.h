@@ -5,7 +5,7 @@
 #include <stdlib.h>
 #include <unistd.h>
 #include <stddef.h>
-#include <sys/types.h
+#include <sys/types.h>
 #include <sys/stat.h>
 #include <fcntl.h>
 #include <ctype.h>
@@ -109,7 +109,7 @@ void free_tokens(void);
 unsigned int token_arr_len(void);
 int run_monty(FILE *script_fd);
 void set_op_tok_error(int error_code);
-int main(int argc, char **argv)
+int main(int argc, char **argv);
 
 /* ERRORS */
 int usage_error(void);
